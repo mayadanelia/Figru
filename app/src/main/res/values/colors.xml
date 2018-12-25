@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2B3949</color>
+    <color name="colorPrimaryDark">#D49349</color>
+    <color name="colorAccent">#D49349</color>
+    <color name="zadnii">#2B3949</color>
+    <color name="figru">#354559</color>
+</resources>

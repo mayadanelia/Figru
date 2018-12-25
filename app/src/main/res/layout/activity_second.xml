@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:background="@drawable/zadnii_logo"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".SecondActivity">
+
+
+    <TextView
+            android:id="@+id/textView3"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="70dp"
+            android:textSize="21dp"
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:layout_height="wrap_content"
+            android:text="შექმენი საკუთარი მაგიდა"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"/>
+
+
+    <EditText
+            android:layout_marginTop="90dp"
+            android:hint="სასურველი თანხა"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="40dp"
+            android:maxLines="1"
+            android:textColorHint="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <EditText
+            android:layout_marginTop="10dp"
+            android:hint="მოთამაშეების რაოდენობა"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="40dp"
+            android:maxLines="1"
+            android:textColorHint="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <EditText
+            android:layout_marginTop="10dp"
+            android:hint="დღეების რაოდენობა"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="40dp"
+            android:maxLines="1"
+            android:textColorHint="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:layout_marginTop="40dp"
+            android:text="დადასტურება"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="35dp"
+            android:background="@color/colorAccent"
+            android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
